@@ -13,16 +13,15 @@ static boolean igualVectors(int v1[], int v2[]) {
         for (int i = 0; i < v1.length; i++) {
             if(v1[i]==v2[i]){
                 contador++;
-            }
-            
-           
+            } 
         }
         if (contador==4){
             return true;
         }
         else{
-            return false;
+           return false; 
         }
+        
     }
  
     public static void main(String[] args) {
@@ -40,7 +39,7 @@ static boolean igualVectors(int v1[], int v2[]) {
                 System.out.println("Dime un numero y lo guardaré en la posición "+i+" del vector1:");
                     vector1[i] = Integer.parseInt(in.readLine());
                 System.out.println("Dime un numero y lo guardaré en la posición "+i+" del vector2:");
-                 vector1[i] = Integer.parseInt(in.readLine());
+                    vector2[i] = Integer.parseInt(in.readLine());
             } 
             catch (IOException | NumberFormatException e) {
                 System.out.println("Error!");

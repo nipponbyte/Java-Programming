@@ -758,62 +758,13 @@ public class JuegoDeRol_AdrianMartinez {
                     break;
                 }
             }while(opPrin!=3);
-            
-            
-    
+     
     }
     
-    
-//    public static void provaFase1(){
-//        Human hu1 = new Human("Pepe",22,3,444);
-//        Human hu2 = new Human("Caca",28,32,44);
-//        Alien al1 = new Alien("Alien1",23,12,50);
-//        Warrior wa1= new Warrior("Warriooor",30,20,60);
-//        System.out.println(hu1);
-//        System.out.println(al1);
-//        System.out.println(wa1);
-//        System.out.println("------------------");
-//        
-//        al1.attack(wa1);
-//    }
-    
-    public static void provaFase4(){
-        Human hu1 = new Human("Camps",22,3,444);
-        Human hu2 = new Human("Caca",28,32,44);
-        Alien al1 = new Alien("Alien1",23,12,50);
-        Warrior wa1= new Warrior("Warriooor",30,20,60);
-        Team team1 = new Team("Polladictos");
-        Team team2 = new Team("Chochoadictos");
-        Item navaja = new Item("Navaja",22,10);
-        Item abogado = new Item("Abogado del PP",0,99);
-        hu1.addTeamIntoPlayer(team1); //Se le asigna el team1 a hu1.
-        team1.addPlayerIntoTeam(wa1); //Se le añade el wa1 al equipo team1
-        al1.addTeamIntoPlayer(team2);
-        hu1.addTeamIntoPlayer(team2);
-        hu1.removeTeamIntoPlayer(team1); //Sale hu1 del team1
-        hu1.addItem(abogado);
-        hu1.addItem(navaja);
-        
-//        hu1.addTeamIntoPlayer(team2);
-//        hu1.addTeamIntoPlayer(team1);
-        System.out.println(hu1.toString());
-        
-        hu1.attack(wa1);
-//        System.out.println(wa1.toString());
-//        System.out.println(al1.toString());
-    }
-    
-    
-   
+ 
     public static void main(String[] args) {
-        //provaFase1();
-//        provaFase4();
         menuPrincipal(jugadores, equipos, armas);
-        
-        
-        
-        
-        
+       
     }
 
 }
